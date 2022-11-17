@@ -2,9 +2,12 @@ import time, requests,json,os
 
 os.system("clear")
 
-print(" Author : Rizqi ")
-print(" Team   : White Str ")
-print(" Github : RiskiMbmbng ")
+print("____________________________")
+print("")
+print("|   Author : Rizqi         |")
+print("|   YouTube: Riskimbmbg    |")
+print("|   Github : RiskiMbmbng   |")
+print("____________________________")
 time.sleep(2.4)
 nomer = input("Nomer Target Berawal (8xx) > ")
 time.sleep(2)
