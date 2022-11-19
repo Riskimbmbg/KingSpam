@@ -55,7 +55,7 @@ time.sleep(3)
 print("∎")
 time.sleep(1.2)
 print("∎")
-time.sleep(1.2)
+time.sleep(1.3)
 print("∎")
 time.sleep(1.2)
 headers = {
