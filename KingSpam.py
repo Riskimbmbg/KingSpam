@@ -85,7 +85,7 @@ else:
     print("∎")
     time.sleep(1.2)
     print("∎∎∎ Maaf Gagal ∎∎∎ ",)
-    time.sleep(1.4)
+    time.sleep(0.3)
 os.system("clear")
 os.system("python KingSpam.py")
 
