@@ -55,11 +55,11 @@ time.sleep(1.2)
 jumlah = int(input("∎∎∎ Jumlah Spam ∎∎∎ : "))
 time.sleep(3)
 print("∎")
-time.sleep(1.2)
+time.sleep(1.5)
 print("∎")
-time.sleep(1.3)
+time.sleep(1.5)
 print("∎")
-time.sleep(1.2)
+time.sleep(1.5)
 headers = {
 "Host" : "eci.id",
 "Connection" : "keep-alive",
@@ -88,3 +88,4 @@ else:
     time.sleep(1.4)
 os.system("clear")
 os.system("python KingSpam.py")
+
