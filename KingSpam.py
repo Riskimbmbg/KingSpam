@@ -22,6 +22,11 @@ mengetik("∎∎∎∎∎         Facebook: Riski mbmbg      ∎∎∎∎∎")
 mengetik("∎   ∎         GitHub  : Riskimbmbg       ∎   ∎")
 mengetik("∎   ∎                                    ∎   ∎")
 mengetik("∎   ∎∎∎∎∎∎∎∎∎∎∎∎∎> LOADING..<∎∎∎∎∎∎∎∎∎∎∎∎∎   ∎")
+print("")
+print("Loading To Script..")
+print("")
+print("")
+print("")
 time.sleep(1)
 
 # animasi loading
