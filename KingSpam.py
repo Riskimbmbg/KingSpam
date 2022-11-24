@@ -101,6 +101,7 @@ time.sleep(1.2)
 print(f"{M}∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎")
 time.sleep(1.2)
 print(f"{M}∎")
+
 k = 0
 nomer = input(f"{K}∎∎∎ Nomer Target ∎∎∎ : ")
 time.sleep(2)
@@ -112,7 +113,6 @@ print(f"{M}∎")
 time.sleep(1.2)
 print(f"{M}∎")
 time.sleep(1.2)
-k = 0
 jumlah = int(input(f"{K}∎∎∎ Jumlah Spam ∎∎∎ : "))
 time.sleep(3)
 print(f"{H}∎")
