@@ -23,10 +23,10 @@ N = '\x1b[0m'    # WARNA MATI
 
 # program
 os.system( 'clear' )
-mengetik(f"{M}######################################>
-mengetik(f"{K}         •••••WELCOME TO MY SCRIPT••••>
-mengetik(f"{K}     •••••SUBCRIBE DULU CHANEL GUA BRO>
-mengetik("{M}######################################>
+mengetik(f"{M}################################################")
+mengetik(f"{K}         •••••WELCOME TO MY SCRIPT•••••")
+mengetik(f"{K}     •••••SUBCRIBE DULU CHANEL GUA BRO•••••")
+mengetik(f"{M}################################################")
 time.sleep(3)
 os.system( 'clear' )
 os.system("xdg-open https://youtube.com/@riskimbmbg2>
