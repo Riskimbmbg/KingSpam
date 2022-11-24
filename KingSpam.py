@@ -138,7 +138,7 @@ data_eci = json.dumps({"identity":"0"+nomer})
 
 for k in range(jumlah):
   k += 1
-  pos_eci = requests.post("https://eci.id/api/signup",headers=headers>
+  pos_eci = requests.post("https://eci.id/api/signup",headers=headers_eci,data=data_eci).text
   if "success" in pos_eci:
     time.sleep(3)
     print(f"{H}____________________________________________")
