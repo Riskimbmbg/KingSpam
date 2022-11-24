@@ -29,7 +29,7 @@ mengetik(f"{K}     •••••SUBCRIBE DULU CHANEL GUA BRO•••••")
 mengetik(f"{M}################################################")
 time.sleep(3)
 os.system( 'clear' )
-os.system("xdg-open https://youtube.com/@riskimbmbg2>
+os.system("xdg-open https://youtube.com/@riskimbmbg276")
 print("")
 mengetik(f"{M}    ∎∎∎∎∎∎∎∎∎∎∎∎∎> SPAM SMS <∎∎∎∎∎∎∎∎∎∎∎∎∎")
 mengetik(f"{M}    ∎                                    ∎")
