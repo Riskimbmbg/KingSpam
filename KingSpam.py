@@ -9,7 +9,7 @@ def mengetik(c):
        for e in c + "\n":
           sys.stdout.write(e)
           sys.stdout.flush()
-          time.sleep(0.03)
+          time.sleep(0.01)
 
 #warna liat
 P = '\x1b[1;97m' # PUTIH
@@ -103,8 +103,8 @@ time.sleep(1.2)
 print(f"{M}∎")
 
 k = 0
-nomer = input(f"{K}∎∎∎ Nomer Target ∎∎∎ : ")
-jumlah = int(input(f"{K}∎∎∎ Jumlah Spam ∎∎∎ : "))
+nomer = input(f"{O} ∎--> Nomer Target : ")
+jumlah = int(input(f"{O} ∎--> Jumlah Spam : "))
 # Headers
 headers_eci = {
 "Host" : "eci.id",
