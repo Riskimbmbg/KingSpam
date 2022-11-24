@@ -104,23 +104,7 @@ print(f"{M}∎")
 
 k = 0
 nomer = input(f"{K}∎∎∎ Nomer Target ∎∎∎ : ")
-time.sleep(2)
-print(f"{O}∎ Mendeteksi Nomer...")
-time.sleep(3)
-print(f"{H}∎ Nomer Aktif [✓]")
-time.sleep(1.2)
-print(f"{M}∎")
-time.sleep(1.2)
-print(f"{M}∎")
-time.sleep(1.2)
 jumlah = int(input(f"{K}∎∎∎ Jumlah Spam ∎∎∎ : "))
-time.sleep(3)
-print(f"{H}∎")
-time.sleep(1.5)
-print(f"{H}∎")
-time.sleep(1.5)
-print(f"{H}∎")
-time.sleep(1.5)
 # Headers
 headers_eci = {
 "Host" : "eci.id",
